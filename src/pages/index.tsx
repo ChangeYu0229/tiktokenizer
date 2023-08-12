@@ -127,7 +127,7 @@ const Home: NextPage = () => {
         </style>
         <div className="flex justify-between text-center md:mt-6">
           <p className=" text-sm text-slate-400">
-         
+          </p>
            
           </div>
         </div>
