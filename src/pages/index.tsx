@@ -127,22 +127,7 @@ const Home: NextPage = () => {
         </style>
         <div className="flex justify-between text-center md:mt-6">
           <p className=" text-sm text-slate-400">
-            Built by{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="text-slate-800"
-              href="https://duong.dev"
-            >
-              dqbd
-            </a>
-            . Created with the generous help from{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="diagram-link text-slate-800"
-              href="https://diagram.com"
-            >
+            
               <svg
                 width="20"
                 height="20"
