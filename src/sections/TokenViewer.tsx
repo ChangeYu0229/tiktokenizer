@@ -149,7 +149,7 @@ export function TokenViewer(props: {
           htmlFor="terms"
           className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
         >
-          Show whitespace
+          显示空白字符
         </label>
       </div>
     </>
