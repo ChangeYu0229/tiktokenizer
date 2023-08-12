@@ -129,6 +129,7 @@ const Home: NextPage = () => {
           <p className=" text-sm text-slate-400">
          
             </a>
+            </a>
           </div>
         </div>
       </main>
