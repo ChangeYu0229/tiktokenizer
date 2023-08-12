@@ -64,7 +64,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Tiktokenizer</title>
+        <title>OpenAI Tokens 在线计算工具</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto flex min-h-screen max-w-[1200px] flex-col gap-4 p-8">

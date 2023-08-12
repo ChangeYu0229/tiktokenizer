@@ -37,7 +37,7 @@ export function ChatGPTEditor(props: {
   const [rows, setRows] = useState<
     { role: string; content: string; name: string }[]
   >([
-    { role: "system", content: "You are a helpful assistant", name: "" },
+    { role: "system", content: "你是ChatGPT, 是来帮助人们解决问题的AI模型", name: "" },
     { role: "user", content: "", name: "" },
   ]);
 

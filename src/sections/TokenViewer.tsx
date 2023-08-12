@@ -67,13 +67,13 @@ export function TokenViewer(props: {
     <>
       <div className="flex gap-4">
         <div className="flex-grow rounded-md border bg-slate-50 p-4 shadow-sm">
-          <p className="text-sm ">Token count</p>
+          <p className="text-sm ">Tokens 数量</p>
           <p className="text-lg">{tokenCount}</p>
         </div>
 
         {pricing != null && (
           <div className="flex-grow rounded-md border bg-slate-50 p-4 shadow-sm">
-            <p className="text-sm ">Price per prompt</p>
+            <p className="text-sm ">消耗金额（官方计费）</p>
             <p className="text-lg">
               ${pricing?.multipliedBy(tokenCount)?.toFixed()}
             </p>
